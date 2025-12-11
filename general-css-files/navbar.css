@@ -1,0 +1,236 @@
+
+html,body{
+  margin: 0;
+  background: rgba(0, 0, 0);
+  color: rgba(255, 255, 255, 1);
+  box-sizing: content-box;
+   box-sizing: border-box;
+}
+
+/* Navigation Bar*/
+
+#navbar{
+  box-sizing: content-box;
+  box-sizing: border-box;
+  padding: 10px;
+  height: 88px;
+  margin: 0;
+  border-bottom: 1px solid rgba(50, 50, 50, 1);
+
+  display: flex;
+  align-items: center; 
+  justify-content: space-between; 
+  flex-wrap: nowrap; 
+}
+/*Left Navigation Part*/
+#leftnavcon{
+  width: 191px;
+  height: 48px;
+  position: relative;
+                 
+}
+
+#leftnavcon #logoimg{
+  width: 40px;
+  height: 38px;
+                                                                                       
+}
+
+#firstnameleftnavcon{
+  margin: 0;
+  top: -5px;
+  left: 50px;
+  position: absolute;
+  font-family: 'Chillax', sans-serif;    
+  width: 131;
+  height: 39;
+}
+
+#firstnameleftnavcon p{
+  margin: 0;
+}
+
+#firstname{
+  font-size: 24px;
+}
+
+#lastname{
+  font-size: 16px;
+}
+
+/*Center Navigation Part*/
+#centernavcon{
+  width: 521px;
+  height: 48px;
+  border:solid;
+  position: relative; 
+  animation: borderimage 1s ease 0s infinite alternate forwards ;
+  clip-path: polygon(
+    15px 0%,     /* top-left */
+    100% 0%,     /* top-right */
+    100% calc(100% - 15px), /* bottom-right */
+    calc(100% - 15px) 100%, /* bottom-right slant */
+    0% 100%,     /* bottom-left */
+    0% 15px      /* top-left slant */
+   )
+}
+
+
+
+#centernavcon ul{
+  display: flex;
+  list-style-type: none; 
+  background: rgba(29, 29, 29, 1);
+   padding-left: 0;
+  margin: 0;
+  
+}
+
+#centernavcon ul li{
+  display: flex;
+  margin: 0;
+  font-family: 'Gilroy-Regular', sans-serif;
+  font-size:  16px;
+  width: 142px;
+  height: 48px;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+
+}
+
+
+
+
+
+
+#centernavcon ul li:hover{
+   
+  box-shadow: inset 0 0 10px rgb(243, 243, 243,0.3);
+  background:
+    radial-gradient(
+      ellipse at bottom center,
+      rgba(255, 255, 255, 0.3),
+      rgba(255, 255, 255, 0) 60%
+    ),
+
+    /* Bottom center glow */
+    radial-gradient(
+      ellipse at bottom center,
+      rgba(180, 180, 255, 0.2),
+      rgba(180, 180, 255, 0) 60%
+    ),
+
+    /* Base background */
+    linear-gradient(
+      to bottom,
+      rgba(40, 40, 40, 1),
+      rgba(20, 20, 20, 1)
+    );
+
+}
+
+/*Rightnavcon*/
+#rightnavcon{
+  gap: 10px;
+  font-family: 'Gilroy-Regular', sans-serif;;
+  border:solid;
+  width: 180px;
+  height: 48px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: rgba(29, 29, 29, 1);
+  animation: borderimage 1s ease 0s infinite alternate forwards ;
+
+
+  position: relative; 
+
+   clip-path: polygon(
+    15px 0%,     /* top-left */
+    100% 0%,     /* top-right */
+    100% calc(100% - 15px), /* bottom-right */
+    calc(100% - 15px) 100%, /* bottom-right slant */
+    0% 100%,     /* bottom-left */
+    0% 15px      /* top-left slant */
+   )
+
+}
+
+
+#rightnavcon img{
+  width: 24px;
+  height: 24px;
+}
+
+#rightnavcon:hover{
+   
+  box-shadow: inset 0 0 10px rgb(243, 243, 243,0.3);
+  background:
+    radial-gradient(
+      ellipse at bottom center,
+      rgba(255, 255, 255, 0.3),
+      rgba(255, 255, 255, 0) 60%
+    ),
+
+    /* Bottom center glow */
+    radial-gradient(
+      ellipse at bottom center,
+      rgba(180, 180, 255, 0.2),
+      rgba(180, 180, 255, 0) 60%
+    ),
+
+    /* Base background */
+    linear-gradient(
+      to bottom,
+      rgba(40, 40, 40, 1),
+      rgba(20, 20, 20, 1)
+    );
+
+}
+
+
+
+/* Border Animation*/
+
+@keyframes borderimage {
+  0%   { border-image:linear-gradient(#FFFF00,#ADFF2F,#00FFFF,#FF00FF) 1;}
+  100% { border-image:linear-gradient(#00FFFF,#FF00FF,#FFFF00,#ADFF2F) 1;}
+}
+
+@keyframes huechange {
+  0% { filter: hue-rotate(0deg); }
+  100% { filter: hue-rotate(360deg); }
+}
+
+
+.top-left-fill, .bottom-right-fill {
+    background: linear-gradient( #FFFF00, #ADFF2F, #00FFFF, #FF00FF);
+    animation: huechange 1s alternate infinite;
+}
+
+
+/* Fill the top-left cut */
+.top-left-fill {
+    position: absolute;
+    top: -6px;
+    left: -1px;
+    width: 20px;  
+    height: 20px;
+
+    clip-path: polygon(0 0, 100% 0, 0 100%);
+    animation: bgcolorchange 1s ease 0s infinite alternate forwards ;
+}
+
+/* Fill the bottom-right cut */
+
+.bottom-right-fill {
+    position: absolute;
+    bottom: -3px;
+    right: -4px;
+    width: 20px;
+    height: 20px;
+     
+    clip-path: polygon(100% 0, 100% 100%, 0 100%);
+    animation: bgcolorchange 1s ease 0s infinite alternate forwards ;
+}
