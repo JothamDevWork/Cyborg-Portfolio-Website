@@ -1,0 +1,515 @@
+body{
+    overflow-x: hidden;
+}
+
+#containeroffullnameconandfullname{
+  display: flex;
+  justify-content: center;
+ 
+
+}
+
+#containeroffullnameconandfullname h1{
+  margin: 0px;
+
+}
+#fullnamecon{
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background: linear-gradient(rgba(42, 42, 42, 1),rgba(16, 16, 16, 1));
+  width: 1262px;
+  height: 235px;
+  
+
+}
+
+#fullname{
+  line-height: 1.5;
+   position: relative;
+   top: -10px;
+  font-family: 'Mechsuit', sans-serif;
+  font-size: 75px;                                           
+}
+
+.box{
+  background-color: black;
+ position: absolute;
+ width: 32px;
+ height: 32px;
+ background: rgba(50, 50, 50, 1);
+ display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#right{
+  
+  top: 308px;
+  right: 29px;
+}
+
+#left{
+  bottom: 315px;
+  left: 29px;
+}
+
+#right2{
+  
+  bottom: -315px;
+  right: 29px;
+}
+
+#left2{
+  bottom: -315px;
+  left: 29px;
+}
+
+
+#main{
+  position: relative;
+}
+
+.ximg{
+  z-index: 1;
+  width: 18.29px;
+  height: 19.43px;
+}
+
+.horizontal{
+  width: 1440px;
+  position: absolute;
+  height: 1px;
+  background: rgba(50, 50, 50, 1);
+}
+
+#horizontal1{
+  bottom: -300px;
+}
+
+.vertical{
+  width: 1px;
+  height: 6566px;
+   position: absolute;
+}
+
+#vertical1{
+   background: rgba(50, 50, 50, 1);
+  position: absolute;
+  left: 44px;
+}
+
+#vertical2{
+   background: rgba(50, 50, 50, 1);
+  position: absolute;
+  right: 44px;
+}
+
+
+
+#bookacallcon{
+  display: flex;
+   justify-content: center;
+   align-items: center;
+  
+  width: 180px;
+  height: 48px;
+  text-align: center;
+  background: rgba(50, 50, 50, 1);
+  border:solid;
+  position: relative; 
+  animation: borderimage 1s ease 0s infinite alternate forwards ;
+  clip-path: polygon(
+    15px 0%,     /* top-left */
+    100% 0%,     /* top-right */
+    100% calc(100% - 15px), /* bottom-right */
+    calc(100% - 15px) 100%, /* bottom-right slant */
+    0% 100%,     /* bottom-left */
+    0% 15px      /* top-left slant */
+   )
+}
+
+#InnoCodeDesigncon{
+  display: flex;
+  flex-direction: column;
+
+  position: absolute;
+  top:390px;
+  left: 153px;
+  width: 236px;
+  height: 182px;
+  line-height: 100%;
+  gap: 10px;
+}
+
+
+#InnoCodeDesigncon #fullname{
+  margin: 0;
+  color: rgba(126, 126, 126, 1);
+  font-size: 16px;
+  font-family: 'Gilroy-Regular', sans-serif;
+}
+
+#InnoCodeDesigncon #description{
+   margin: 0;
+  color:  rgba(255, 255, 255, 1);
+  font-size: 24px;
+  line-height: 100%;
+  font-family: 'Gilroy-Regular', sans-serif;
+
+}
+#bookacallcon{ 
+  position: absolute;
+  bottom: 0px;
+  background: rgba(29, 29, 29, 1);
+   
+}
+ 
+#bookacallcon #text{
+
+   position: absolute;
+  top: -10px;
+  left: 40px;
+  font-family: 'Gilroy-Semibold', sans-serif;
+  font-size: 16px;
+}
+#bookacallcon img{
+  
+  width: 24px;
+  height: 24px;
+  margin: 0;
+  position: relative;
+  top: 5px;
+  left: 5px;
+}
+#bookacallcon:hover{
+  box-shadow: inset 0 0 10px rgb(243, 243, 243,0.3);
+  background:
+    radial-gradient(
+      ellipse at bottom center,
+      rgba(255, 255, 255, 0.3),
+      rgba(255, 255, 255, 0) 60%
+    ),
+
+    /* Bottom center glow */
+    radial-gradient(
+      ellipse at bottom center,
+      rgba(180, 180, 255, 0.2),
+      rgba(180, 180, 255, 0) 60%
+    ),
+
+    /* Base background */
+    linear-gradient(
+      to bottom,
+      rgba(40, 40, 40, 1),
+      rgba(20, 20, 20, 1)
+    );
+}
+#designinguseweasycon{
+   display: flex;
+  flex-direction: column;
+
+  position: absolute;
+  top:390px;
+  right: 153px;
+  width: 236px;
+  height: 182px;
+  line-height: 100%;
+  gap: 10px;
+}
+
+
+#imgbox{
+  animation: spin3d 3s alternate-reverse infinite;
+  transform-style: preserve-3d; 
+}
+@keyframes spin3d {
+  from {
+    transform: rotate3d(1, 1, 5, 0deg);
+  }
+  to {
+    transform: rotate3d(10,5, 5, 360deg);
+  }
+}
+
+
+
+#servicescon{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+  width: 1138px;
+  height: 247px;
+   top:300px;
+   left: 100px;
+  background-color:rgb(90, 90, 90,0.2);
+  backdrop-filter: blur(16px);
+ 
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.9);  /* optional soft shadow */
+  border:solid;
+  position: relative;
+  animation: borderimage 1s ease 0s infinite alternate forwards ;
+  clip-path: polygon(
+  0% 0%,                        /* top-left */
+  calc(100% - 45px) 0%,         /* top-right slant */
+  100% 45px,                    /* top-right */
+  100% 100%,                    /* bottom-right */
+  45px 100%,                    /* bottom-left slant */
+  0% calc(100% - 45px)          /* bottom-left */
+);
+
+}
+
+.service{
+  margin-left: 10px;
+  width: 253px;
+  height: 140px;
+}
+
+#servicescon div p{
+  text-transform: uppercase;
+  text-align: center;
+  font-family: 'Chakra Petch SemiBold', sans-serif;
+}
+
+/* Border Animation*/
+
+@keyframes borderimage {
+  0%   { border-image:linear-gradient(#FFFF00,#ADFF2F,#00FFFF,#FF00FF) 1;}
+  100% { border-image:linear-gradient(#00FFFF,#FF00FF,#FFFF00,#ADFF2F) 1;}
+}
+
+@keyframes huechange {
+  0% { filter: hue-rotate(0deg); }
+  100% { filter: hue-rotate(360deg); }
+}
+
+
+.top-left-fill, .bottom-right-fill {
+    background: linear-gradient( #FFFF00, #ADFF2F, #00FFFF, #FF00FF);
+    animation: huechange 1s alternate infinite;
+}
+
+
+/* Fill the top-left cut */
+.top-left-fill {
+    position: absolute;
+    top: -6px;
+    left: -1px;
+    width: 20px;  
+    height: 20px;
+
+    clip-path: polygon(0 0, 100% 0, 0 100%);
+    animation: bgcolorchange 1s ease 0s infinite alternate forwards ;
+}
+
+/* Fill the bottom-right cut */
+
+.bottom-right-fill {
+    position: absolute;
+    bottom: -3px;
+    right: -4px;
+    width: 20px;
+    height: 20px;
+     
+    clip-path: polygon(100% 0, 100% 100%, 0 100%);
+    animation: bgcolorchange 1s ease 0s infinite alternate forwards ;
+}
+
+#cornerdesign{
+position: absolute;
+top: -30px;
+right: -10px;
+
+}
+
+#cornerdesign #horizontal{
+  width: 2px;
+  height: 14px;
+ 
+  transform: rotate(90deg) translateY(-2px);
+
+}
+#cornerdesign #vertical{
+  width: 2px;
+  height: 14px;
+  transform: translate(8px,-6px);
+
+}
+
+.line{
+  background-color: white;
+}
+ #InnoCodeDesigncon #diagonaldesign{
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  top: 100px;
+  left: 250px;
+  gap:10px;
+  width: 7px;
+  height: 53px;
+}
+#InnoCodeDesigncon .diagonal{
+  background-color: rgb(250, 248, 248);
+  width: 8px;
+  height: 2px;
+  transform: rotate(-45.6deg);
+ 
+}
+
+#InnoCodeDesigncon #thickershorthoriline{
+  height: 5px;
+  width:  42px;
+  background: rgba(126, 126, 126, 1);
+
+  position: absolute;
+  top: 198px;
+}
+
+#InnoCodeDesigncon #longerthinnerhoriline{
+  height:1px;
+  width: 210px;
+  background: rgba(50, 50, 50, 1);
+  position: absolute;
+  top: 200px;
+  right: -20px;
+
+}
+
+
+
+
+
+
+
+/**/
+#designinguseweasycon{
+   margin: 0;
+  color:  rgba(255, 255, 255, 1);
+  font-size: 16px;
+  line-height: 100%;
+  font-weight: 400px;
+  font-family: 'Gilroy-Regular', sans-serif;
+}
+ #diagonaldesign{
+  
+  display: flex;
+  position: absolute;
+  top: -24px;
+  right: -24px;
+  gap: 3px;
+  height: 7px;
+  width: 90px;
+
+  
+   
+}
+#designinguseweasycon .diagonal{
+  background-color: rgb(250, 248, 248);
+  width: 8px;
+  height: 1px;
+  transform: rotate(-45.6deg);
+  
+ 
+}
+
+#designinguseweasycon #thickershorthoriline{
+  height: 5px;
+  width:  42px;
+  background: rgba(126, 126, 126, 1);
+
+  position: absolute;
+  top: 198px;
+  right: 0px;
+}
+
+#designinguseweasycon #longerthinnerhoriline{
+  height:1px;
+  width: 210px;
+  background: rgba(50, 50, 50, 1);
+  position: absolute;
+  top: 200px;
+ left: -20px;
+
+}
+
+
+#designinguseweasycon #cornerdesign{
+position: absolute;
+top: -30px;
+left: -10px;
+
+}
+
+#designinguseweasycon #cornerdesign #horizontal{
+  width: 2px;
+  height: 14px;
+ 
+  transform: rotate(-90deg) translateY(-2px);
+
+}
+#designinguseweasycon #cornerdesign #vertical{
+  width: 2px;
+  height: 14px;
+  transform: translate(-8px,-6px);
+
+}
+  
+
+#robot{
+  position: absolute;
+  top:200px;
+  width:550px;
+  height:550px;
+  left:400px ;
+}
+
+
+
+.bottom-left-fill {
+    position: absolute;
+    bottom: -3px;
+    left: -4px;
+    width: 20px;
+    height: 20px;
+
+    /* Bottom-left triangle */
+    clip-path: polygon(0 0, 0 100%, 100% 100%);
+
+    background: linear-gradient(#FFFF00, #ADFF2F, #00FFFF, #FF00FF);
+    animation: bgcolorchange 1s ease 0s infinite alternate forwards;
+}
+
+
+/* Fill the top-right cut */
+.top-right-fill {
+    position: absolute;
+    top: -6px;
+    right: -1px;
+    width: 50px;
+    height: 50px;
+
+    clip-path: polygon(100% 0, 100% 100%, 0 0); /* top-right triangle */
+    
+    background: linear-gradient(#FFFF00, #ADFF2F, #00FFFF, #FF00FF);
+}
+
+/* Fill the bottom-left cut */
+.bottom-left-fill {
+    position: absolute;
+    bottom: -3px;
+    left: -4px;
+    width: 50px;
+    height: 50px;
+
+    clip-path: polygon(0 0, 0 100%, 100% 100%); /* bottom-left triangle */
+    
+    background: linear-gradient(#FFFF00, #ADFF2F, #00FFFF, #FF00FF);
+}
+
+
+.top-right-fill, .bottom-left-fill { background: linear-gradient( #FFFF00, #ADFF2F, #00FFFF, #FF00FF); animation: huechange 1s alternate infinite; }
