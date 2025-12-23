@@ -1,0 +1,178 @@
+#horizontal2{
+  position: absolute;
+  top: 1780px;
+}
+#right3{
+  
+  bottom: -1151px;
+  right: 29px;
+}
+
+#left3{
+  bottom: -1151px;
+  left: 29px;
+}
+
+
+
+#projectmecon{
+  display: flex;
+  position: relative;
+  width:1259px;
+  height: 173px;
+   border-bottom: solid  rgba(50, 50, 50, 1) 1px;
+  position: relative;
+  left: 44px;
+  top: -435px;
+}
+
+#projectmetitlecon{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  background: linear-gradient(rgba(42, 42, 42, 1),rgba(16, 16, 16, 1));
+  left: 1px;
+  top:-1px;
+  width:599px;
+  height: 174px;
+
+}
+
+#projectmetitle{
+  font-size: 48px;
+  font-family:'Mechsuit';
+ 
+}
+
+#middleparagraph {
+  width: 359px;
+  height: 69px;
+  position: absolute;
+  left: 664px;
+  top: 40px;
+  font-family: 'Gilroy-Regular', sans-serif;
+  font-weight: 400px;
+  font-size: 16px;
+}
+#projectmelogocon{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  border-style: solid;
+  border-color:  rgba(50, 50, 50, 1);
+  border-width: 0px 0px 0px 1px;
+  width:176px;
+  height: 171px;
+  top: 1px;
+  left:1084px;
+  
+}
+
+
+#projectmelogo{
+ position: absolute;
+  width: 120px;
+  height: 130px;
+}
+
+
+#projectmelogocon #cornerdesign{
+position: absolute;
+top: 140px;
+left: 10px;
+
+}
+
+#projectmelogocon #cornerdesign #horizontal{
+transform: rotate(90deg) translate(-15px,-16px);
+}
+
+#projectmelogocon #cornerdesign #vertical{
+  transform: translate(10px,-9px);
+}
+
+
+
+
+
+
+
+
+
+
+.slider-wrapper {
+  position: absolute;
+  width: 100%;
+ 
+  margin: auto;
+  top: 280px;
+
+}
+
+/* TOP AREA */
+.slider-viewport {
+  overflow: hidden;
+  width: 100%;
+}
+
+.slider {
+  
+  display: flex;
+    gap: 30px;     
+  transition: transform 0.5s ease;
+}
+
+.slide {
+ min-width: 50%;   
+  height: 320px;
+
+  /* temp visuals */
+  background: #222;
+  color: white;
+  font-size: 32px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+
+
+  
+  clip-path: polygon(
+   0% 0%,
+   calc(100% - 40px) 0%,
+   100% 40px,
+   100% 100%,
+   0% 100%
+  );
+ 
+}
+
+.filler{
+  position: absolute;
+}
+/* BOTTOM CONTROLS */
+.slider-controls {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.nav {
+  cursor: pointer;
+}
+
+/* OPTIONAL middle indicator (like your screenshot) */
+.progress {
+  display: flex;
+  gap: 8px;
+}
+
+.progress span {
+  width: 20px;
+  height: 3px;
+  background: #555;
+}

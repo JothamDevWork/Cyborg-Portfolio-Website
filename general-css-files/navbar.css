@@ -38,9 +38,9 @@ html,body{
 
 #firstnameleftnavcon{
   margin: 0;
-  top: -5px;
+  top: -50px;
   left: 50px;
-  position: absolute;
+  position: relative;
   font-family: 'Chillax', sans-serif;    
   width: 131;
   height: 39;
@@ -63,6 +63,7 @@ html,body{
   width: 521px;
   height: 48px;
   border:solid;
+  z-index: 999;
   position: relative; 
   animation: borderimage 1s ease 0s infinite alternate forwards ;
   clip-path: polygon(
@@ -192,8 +193,6 @@ html,body{
 
 
 
-/* Border Animation*/
-
 @keyframes borderimage {
   0%   { border-image:linear-gradient(#FFFF00,#ADFF2F,#00FFFF,#FF00FF) 1;}
   100% { border-image:linear-gradient(#00FFFF,#FF00FF,#FFFF00,#ADFF2F) 1;}
@@ -210,7 +209,7 @@ html,body{
     animation: huechange 1s alternate infinite;
 }
 
-
+ 
 /* Fill the top-left cut */
 .top-left-fill {
     position: absolute;
