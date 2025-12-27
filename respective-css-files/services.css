@@ -1,0 +1,198 @@
+#horizontal2{
+  position: absolute;
+  top: 2735px;
+}
+#right4{
+  
+  bottom: -800px;
+  right: -15px;
+}
+
+#left4{
+  bottom: -800px;
+  left: -15px;
+}
+
+
+#servicesecmecon{
+  display: flex;
+  position: absolute;
+  width:1259px;
+  height: 173px;
+   border-bottom: solid  rgba(50, 50, 50, 1) 1px;
+  left: 0px;
+  top: 955px;
+}
+
+#servicesecmetitlecon{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  background: linear-gradient(rgba(42, 42, 42, 1),rgba(16, 16, 16, 1));
+  left: 1px;
+  top:-1px;
+  width:599px;
+  height: 174px;
+
+}
+
+#servicesecmetitle{
+  font-size: 48px;
+  font-family:'Mechsuit';
+ 
+}
+
+#middleparagraph {
+  width: 359px;
+  height: 69px;
+  position: absolute;
+  left: 664px;
+  top: 30px;
+  font-family: 'Gilroy-Regular', sans-serif;
+  font-weight: 400px;
+  font-size: 16px;
+}
+#servicesecmelogocon{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  border-style: solid;
+  border-color:  rgba(50, 50, 50, 1);
+  border-width: 0px 0px 0px 1px;
+  width:176px;
+  height: 171px;
+  top: 1px;
+  left:1084px;
+  
+}
+
+
+#servicesecmelogo{
+ position: absolute;
+ top: 25px;
+  width: 120px;
+  height: 110px;
+}
+
+
+#servicesecmelogocon #cornerdesign{
+position: absolute;
+top: 140px;
+left: 10px;
+
+}
+
+#servicesecmelogocon #cornerdesign #horizontal{
+transform: rotate(90deg) translate(-15px,-16px);
+}
+
+#servicesecmelogocon #cornerdesign #vertical{
+  transform: translate(10px,-9px);
+}
+
+#containerofservices{
+ 
+  min-width: 100%;
+  min-height: 510px;
+  position: relative;
+  top: 200px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap:40px;
+}
+
+#containerofservices .slidecon #cornerdesignTOPRIGHT{
+ position: absolute;
+  top: 20px;
+ right: 50px;
+}
+#containerofservices .slidecon #cornerdesignBOTTOMLEFT{
+ position: absolute;
+  bottom:200px;
+ left: 50px;
+}
+
+#diagonaldesign2{
+  display: flex;
+  position: absolute;
+   transform: rotate(90deg);
+   top: 120px;
+  right: 5px;
+  gap:5px;
+  width:100px;
+  height: 53px;
+}
+#longerthinnerhoriline2{
+  position:absolute;
+  background-color: rgba(50, 50, 50, 1);
+  top: 280px;
+  left: 478px;
+  transform: rotate(90deg);
+  height: 1px;
+  width: 200px;
+  z-index: 90;
+
+}
+
+.slide #longerthinnerhoriline34{
+  position:absolute;
+  background-color: rgba(50, 50, 50, 1);
+  bottom: 50px;
+  left:120px;
+
+  height: 1px;
+  width: 200px;
+
+
+}
+
+#numbox{
+  background-color: black;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100px;
+  height: 100px;
+  border:  solid 1px grey;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 80px;
+  background-image:  linear-gradient(
+   45deg,
+    #FFFF00,
+    #ADFF2F,
+    #00FFFF,
+    #FF00FF
+  );
+  color: transparent;
+  -webkit-background-clip: text;
+  background-clip: text;
+   animation: huechange 1s linear infinite;
+}
+#containerofservices .slidecon{
+ height: 550px;
+}
+.imageindicate{
+  position:absolute;
+  width: 450px;
+  top: -50px;
+}
+#subtitle{
+  margin-bottom: 10px;
+  top: 330px;
+  position: absolute;
+  font-size: 20px;
+  left: 45px;
+  text-transform: uppercase;
+}
+
+#containerofservices #projectdescript{
+  top: 370px;
+}
+
+
+
+
