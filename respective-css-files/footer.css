@@ -1,0 +1,134 @@
+#horizontallast{
+  position: absolute;
+  bottom: -5450px;
+}
+#horizontallast2{
+  position: absolute;
+  bottom: -5800px;
+}
+#rightlast{
+  
+  bottom: -5465px;
+  right: 30px;
+}
+
+#leftlast{
+  bottom: -5465px;
+  left: 30px;
+}
+
+#foootercontainer{
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  width: 100%;
+  background-color: blue;
+  position: relative;
+   
+    width: 100%;
+  height: 100%;
+
+}
+
+#firstlast{
+  position: absolute;
+  width: 350px;
+  height: 100px;
+  background-color: red;
+  bottom: -5670px;
+  
+  left: 100px;
+
+  
+ border-style: solid ;
+ border-color:rgba(50, 50, 50, 1);
+ border-width: 1px 1px 1px 1px;
+ background-color: black;
+
+clip-path: polygon(
+   0% 0%,
+   100% 0%,
+   100% calc(100% - 45px),
+   calc(100% - 45px) 100%,
+   0% 100%
+);
+
+}
+
+#lastfillbottomright{
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  background-color: rgba(50, 50, 50, 1);
+  top: 50px;
+  left:305px;
+  clip-path: polygon(
+    100% 0%,
+    100% 100%,
+    0% 100%
+  );
+}
+
+#lastfillbottomleft2{
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  background-color: rgba(50, 50, 50, 1);
+   top:50px;
+   left: -5px;
+  transform: rotate(90deg);
+
+  clip-path: polygon(
+    100% 0%,
+    100% 100%,
+    0% 100%
+  );
+}
+
+#secondlast{
+ position: absolute;
+  width: 750px;
+  height: 100px;
+  background-color: red;
+  bottom: -5670px;
+  
+  right: 100px;
+
+  
+ border-style: solid ;
+ border-color:rgba(50, 50, 50, 1);
+ border-width: 1px 1px 1px 1px;
+ background-color: black;
+
+ clip-path: polygon(
+  0% 0%,
+  100% 0%,
+  100% 100%,
+  45px 100%,
+  0% calc(100% - 45px)
+);
+
+}
+
+#firstlast #firstnameleftnavcon{
+ position: relative;
+ top: -30px;
+ left: 30%;
+}
+
+#firstlast #logoimg{
+ position: relative;
+ top: 25px;
+ left: 11%;
+}
+
+#rights{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  position: absolute;
+  top: 20%;
+  left: 30%;
+  font-family: 'Gilroy-Regular', sans-serif;
+
+}
