@@ -1,46 +1,42 @@
-#horizontal3{
+#horizontal3 {
   position: absolute;
   top: 2395px;
 }
-#right5{
-  
+#right5 {
   bottom: -1900px;
   right: -16px;
 }
 
-#left5{
+#left5 {
   bottom: -1900px;
   left: -16px;
 }
 
-
-#contactsecmecon{
+#contactsecmecon {
   display: flex;
   position: absolute;
-  width:1259px;
+  width: 1259px;
   height: 173px;
-   border-bottom: solid  rgba(50, 50, 50, 1) 1px;
-  left:0px;
-  top:2395px;
+  border-bottom: solid rgba(50, 50, 50, 1) 1px;
+  left: 0px;
+  top: 2395px;
 }
 
-#contactsecmetitlecon{
+#contactsecmetitlecon {
   display: flex;
   justify-content: center;
   align-items: center;
   position: absolute;
-  background: linear-gradient(rgba(42, 42, 42, 1),rgba(16, 16, 16, 1));
+  background: linear-gradient(rgba(42, 42, 42, 1), rgba(16, 16, 16, 1));
   left: 1px;
-  top:-1px;
-  width:599px;
+  top: -1px;
+  width: 599px;
   height: 174px;
-
 }
 
-#contactsecmetitle{
+#contactsecmetitle {
   font-size: 48px;
-  font-family:'Mechsuit';
- 
+  font-family: "Mechsuit";
 }
 
 #middleparagraph {
@@ -49,245 +45,224 @@
   position: absolute;
   left: 664px;
   top: 30px;
-  font-family: 'Gilroy-Regular', sans-serif;
+  font-family: "Gilroy-Regular", sans-serif;
   font-weight: 400px;
   font-size: 16px;
 }
-#contactsecmelogocon{
+#contactsecmelogocon {
   display: flex;
   justify-content: center;
   align-items: center;
   position: absolute;
   border-style: solid;
-  border-color:  rgba(50, 50, 50, 1);
+  border-color: rgba(50, 50, 50, 1);
   border-width: 0px 0px 0px 1px;
-  width:176px;
+  width: 176px;
   height: 171px;
   top: 1px;
-  left:1084px;
-  
+  left: 1084px;
 }
 
-
-#contactsecmelogo{
- position: absolute;
- top: 25px;
+#contactsecmelogo {
+  position: absolute;
+  top: 25px;
   width: 120px;
   height: 110px;
 }
 
-
-#contactsecmelogocon #cornerdesign{
-position: absolute;
-top: 140px;
-left: 10px;
-
+#contactsecmelogocon #cornerdesign {
+  position: absolute;
+  top: 140px;
+  left: 10px;
 }
 
-#contactsecmelogocon #cornerdesign #horizontal{
-transform: rotate(90deg) translate(-15px,-16px);
+#contactsecmelogocon #cornerdesign #horizontal {
+  transform: rotate(90deg) translate(-15px, -16px);
 }
 
-#contactsecmelogocon #cornerdesign #vertical{
-  transform: translate(10px,-9px);
+#contactsecmelogocon #cornerdesign #vertical {
+  transform: translate(10px, -9px);
 }
 
-#contactscon{
-display: grid;
-grid-template-columns: repeat(2,1fr);
-position: relative;
-top:200px;
-left: 1px;
-background-color: rgb(0, 0, 0);
-border-color: rgba(50, 50, 50, 1);
-border-style:solid;
-border-width: 1px 0px 1px 0px;
-width: 1259px;
-height: 500px;
-z-index: -2;
-
-
+#contactscon {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  position: relative;
+  top: 200px;
+  left: 1px;
+  background-color: rgb(0, 0, 0);
+  border-color: rgba(50, 50, 50, 1);
+  border-style: solid;
+  border-width: 1px 0px 1px 0px;
+  width: 1259px;
+  height: 500px;
+  z-index: -2;
 }
 
-
-#bookacallconlast{
+#bookacallconlast {
   display: flex;
-   justify-content: center;
-   align-items: center;
+  justify-content: center;
+  align-items: center;
   bottom: 0px;
-  
+
   width: 80%;
   height: 80%;
   text-align: center;
   border: solid rgba(50, 50, 50, 1) 2px;
   background-color: black;
-  position: relative; 
+  position: relative;
   top: 10%;
   left: 10%;
-  
-  clip-path: polygon(
-    40px 0%,     /* top-left */
-    100% 0%,     /* top-right */
-    100% calc(100% - 40px), /* bottom-right */
-    calc(100% - 40px) 100%, /* bottom-right slant */
-    0% 100%,     /* bottom-left */
-    0% 40px      /* top-left slant */
-   )
-}
-
-
-#topfill{
-    position: absolute;
-    top: 0px;
-    left: -61px;
-    width: 100px;  
-    height: 100px;
-    background-color:  rgba(50, 50, 50, 1);
-
-    clip-path: polygon(0 0, 100% 0, 0 100%);
- 
-}
-
-
-#bottomfill {
-    position: absolute;
-    bottom: -3px;
-    right: -57px;
-    width: 100px;
-    height: 100px;
-    background-color: rgba(50, 50, 50, 1);
-     
-    clip-path: polygon(100% 0, 100% 100%, 0 100%);
- 
-}
-
-.bottom-right-filllast{
-
-  width:100px;
-  height: 100px;
-  background-color:rgba(50, 50, 50, 1);
-  position: absolute;
-  top:404px;
-  right: -50px;
 
   clip-path: polygon(
-    100% 0%,
-    100% 100%,
-    0% 100%
+    40px 0%,
+    /* top-left */ 100% 0%,
+    /* top-right */ 100% calc(100% - 40px),
+    /* bottom-right */ calc(100% - 40px) 100%,
+    /* bottom-right slant */ 0% 100%,
+    /* bottom-left */ 0% 40px /* top-left slant */
   );
 }
-#contactscon .formatcon{ 
-  height: 300px;
-  border-color:rgba(50, 50, 50, 1);
-  border-style: solid;
-  border-width: 0px 1px 0px 0px;
-  height: 500px; 
-  
-  
+
+#topfill {
+  position: absolute;
+  top: 0px;
+  left: -61px;
+  width: 100px;
+  height: 100px;
+  background-color: rgba(50, 50, 50, 1);
+
+  clip-path: polygon(0 0, 100% 0, 0 100%);
 }
 
+#bottomfill {
+  position: absolute;
+  bottom: -3px;
+  right: -57px;
+  width: 100px;
+  height: 100px;
+  background-color: rgba(50, 50, 50, 1);
 
-#topleftfill{
-  background-color:rgba(50, 50, 50, 1) ;
+  clip-path: polygon(100% 0, 100% 100%, 0 100%);
+}
+
+.bottom-right-filllast {
+  width: 100px;
+  height: 100px;
+  background-color: rgba(50, 50, 50, 1);
+  position: absolute;
+  top: 404px;
+  right: -50px;
+
+  clip-path: polygon(100% 0%, 100% 100%, 0% 100%);
+}
+#contactscon .formatcon {
+  height: 300px;
+  border-color: rgba(50, 50, 50, 1);
+  border-style: solid;
+  border-width: 0px 1px 0px 0px;
+  height: 500px;
+}
+
+#topleftfill {
+  background-color: rgba(50, 50, 50, 1);
   width: 100px;
   height: 100px;
   position: absolute;
   top: 55px;
-  left:695px;
+  left: 695px;
   z-index: -1;
 }
 
-#bottomrightfill{
-  background-color:rgba(50, 50, 50, 1) ;
+#bottomrightfill {
+  background-color: rgba(50, 50, 50, 1);
   width: 100px;
   height: 100px;
   position: absolute;
   top: 350px;
-  left:1095px;
+  left: 1095px;
   z-index: -1;
-
 }
 
-#contact{
+#contact {
   position: absolute;
   top: 100px;
   width: 100%;
   display: grid;
   gap: 10px;
-  grid-template-columns: repeat(2,auto);
+  grid-template-columns: repeat(2, auto);
 }
-#contact label{
+#contact label {
   text-transform: capitalize;
 }
-#contact input{
+#contact input {
   margin-top: 20px;
   display: block;
   width: 150px;
 }
 
-#message{
+#message {
   width: 160%;
   height: 50px;
 }
 
-label, input{
+label,
+input {
   margin: 10px;
 }
-input{
+input {
   color: white;
   background: transparent;
   border-width: 0px 0px 1px 0px;
 }
 
-textarea{
+textarea {
   color: white;
   margin: 10px;
   background-color: transparent;
   border-width: 0px 0px 1px 0px;
 }
 
-
-#contactscon{
- font-family: 'Chakra Petch';
+#contactscon {
+  font-family: "Chakra Petch";
 }
 
-#contact #bookacallcon{
+#contact #bookacallcon {
   top: 40px;
   left: 380px;
   width: 200px;
-  height: 45px ;
+  height: 45px;
 }
 
-#checkbox{
+#checkbox {
   position: absolute;
   top: 245px;
   left: -65px;
   width: 20px;
   height: 20px;
-  background-color:black; 
+  background-color: black;
 }
 
-#para{
+#para {
   position: absolute;
-  top:250px ;
+  top: 250px;
   left: 35px;
   font-size: 15px;
 }
 
-#contact #longerthinnerhoriline2{
- transform: rotate(0deg);
+#contact #longerthinnerhoriline2 {
+  transform: rotate(0deg);
   top: 350px;
   left: 115px;
 }
 
-#contact #diagonaldesign2{
- transform: rotate(0deg);
+#contact #diagonaldesign2 {
+  transform: rotate(0deg);
   top: 350px;
   left: 30px;
 }
 
-
-.boxlast{
+.boxlast {
   width: 90%;
   background-color: rgb(0, 0, 0);
   height: 30%;
@@ -296,48 +271,43 @@ textarea{
   display: flex;
   align-items: center;
   justify-content: center;
- 
-
 }
-#Email{
-  position:absolute;
-  top:40px;
+#Email {
+  position: absolute;
+  top: 40px;
 }
 
-#Upwork{
+#Upwork {
   top: 150px;
 }
 
-#LinkIn{
+#LinkIn {
   top: 262px;
-  
 }
-#Email #diagonaldesign2{
-  position:relative;
+#Email #diagonaldesign2 {
+  position: relative;
   left: -7000px;
 }
 
-
-.boxlast img{
+.boxlast img {
   width: 10px;
   position: absolute;
   top: 15px;
   left: 10px;
 }
- .textso{
+.textso {
   position: absolute;
   top: -11px;
   left: 25px;
 }
 
-
- #Email #diagonaldesign{
+#Email #diagonaldesign {
   display: flex;
   flex-direction: column;
-  position:absolute;
+  position: absolute;
   top: 100px;
   left: 250px;
-  gap:10px;
+  gap: 10px;
   width: 7px;
   height: 53px;
 }
